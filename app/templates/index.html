@@ -27,7 +27,8 @@
                 <div class="card-body">
                        <!-- Affichage de l'image -->
                        {% if post.image %}
-                       <img src="{{ post.image.url }}" alt="{{ post.title }}" class="img-fluid ">
+                     <img src="{{ post.image.url }}" alt="{{ post.title }}" class="img-fluid" style="width: 500px; height: 450px; object-fit: cover;">
+
                        {% endif %}
                     <h2 class="cardtitle">{{ post.title }}</h2>
                     <p class="card-text text-muted h6">{{ post.author }} | {{ post.created }}</p>
