@@ -17,7 +17,7 @@ SECRET_KEY = 'django-insecure-qg*aso*ta1+sxd6q5-agl!5*n+*q3uo$403sqr4t+z!!!5wo$g
 DEBUG = True
 
 # ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['blog-t2vd.onrender.com']
+ALLOWED_HOSTS = ['blog-t2vd.onrender.com','127.0.0.1']
 
 
 
